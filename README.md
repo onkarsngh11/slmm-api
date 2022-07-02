@@ -2,11 +2,13 @@
 
 This Api provides functionality to perform following actions:
 
-GET Position- Get current position of the machine
-POST Move - Moves the machine by one step if coordinate is within the dimensions of garden
-POST Turn - Turn the machine orientation based on Clockwise/AntiClockwise input provided
-POST Reset - Resets the machine to `(0,0)` coordinates, sets the orientation to `North` and 
-			 sets the `length` and `width` of the garden based on provided input
+`GET` Position - Get current position of the machine
+
+`POST` Move - Moves the machine by one step if coordinate is within the dimensions of garden
+
+`POST` Turn - Turn the machine orientation based on Clockwise/AntiClockwise input provided
+
+`POST` Reset - Resets the machine to `(0,0)` coordinates, sets the orientation to `North` and sets the `length` and `width` of the garden based on provided input
 
 ## Running solution locally
 
